@@ -1,6 +1,8 @@
-package web.service;
+package com.example.pp3_1_2.service;
 
-import web.model.User;
+
+
+import com.example.pp3_1_2.model.User;
 
 import java.util.List;
 

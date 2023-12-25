@@ -1,12 +1,13 @@
-package web.controller;
+package com.example.pp3_1_2.controller;
 
+import com.example.pp3_1_2.model.User;
+import com.example.pp3_1_2.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import web.model.User;
-import web.service.UserService;
+
 
 @Controller
 @RequestMapping("/users")

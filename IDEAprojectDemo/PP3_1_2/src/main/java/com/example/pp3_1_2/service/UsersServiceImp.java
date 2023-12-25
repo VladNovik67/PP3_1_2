@@ -1,11 +1,13 @@
-package web.service;
+package com.example.pp3_1_2.service;
 
 
+import com.example.pp3_1_2.dao.UsersDao;
+import com.example.pp3_1_2.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import web.dao.UsersDao;
-import web.model.User;
+
+
 import java.util.List;
 
 
